@@ -69,9 +69,6 @@ This is a brazillian card game named truco.
   yarn android or yarn ios (if you have mac)
 ```
     
-## Authors
-
-- [@Larry Junior](https://www.linkedin.com/in/larryjunior2121/)
 
 ## Example Pictures (WIP)
 
@@ -83,3 +80,6 @@ This is a brazillian card game named truco.
 
 <img width="380" alt="image" src="https://user-images.githubusercontent.com/56661158/206304519-2eae59d5-c3f9-43dc-8c5c-847c2e86735c.png">
 
+## Authors
+
+- [@Larry Junior](https://www.linkedin.com/in/larryjunior2121/)
