@@ -1,4 +1,4 @@
-import Card from "../model/Card";
+import Card from '../model/Card';
 
 class Actions {
   constructor() {}
@@ -32,26 +32,26 @@ class Actions {
 
   protected getCardSuite() {
     const num = this.getRandomNum(4);
-    let suite = "";
+    let suite = '';
 
     switch (num) {
       case 0:
-        suite = "spades";
+        suite = 'spades';
         break;
       case 1:
-        suite = "hearts";
+        suite = 'hearts';
         break;
       case 2:
-        suite = "clubs";
+        suite = 'clubs';
         break;
       case 3:
-        suite = "diamonds";
+        suite = 'diamonds';
         break;
     }
     return suite;
   }
 
-  public drawCard(number: Number) {
+  public drawCard(number: number) {
     let dealedCards = new Array();
     while (dealedCards.length < number) {
       const number = this.getCardNumber();
